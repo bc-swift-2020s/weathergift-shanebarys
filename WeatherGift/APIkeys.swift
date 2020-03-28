@@ -9,5 +9,5 @@
 import Foundation
 
 struct APIkeys {
-    static let googlePlacesKey = "AIzaSyDhc6j08UsDtxgPFh3lNtI2_SmoAt5W3e8"
+    static let googlePlacesKey = "AIzaSyAxUn7fpQ4CVk-6irV_Xs4ymINqVncA3kM"
 }
