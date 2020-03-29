@@ -27,9 +27,21 @@ class LocationListViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
     }
+    
+
+    
+    func saveLocations() {
+        let encoder = JSONEncoder()
+        if let encoded = try? encoder.encode(weatherLocations) {
+            UserDefaults.standard.set(encoded, forKey: "weatherLocations")
+        } else {
+           print( "ERROR: Saving data didn't work")
+        }
+    }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         selectedLocationIndex = tableView.indexPathForSelectedRow!.row
+        saveLocations()
     }
 
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
