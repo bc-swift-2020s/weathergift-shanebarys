@@ -118,12 +118,12 @@ extension LocationListViewController: GMSAutocompleteViewControllerDelegate {
   }
 
   // Turn the network activity indicator on and off again.
-  func didRequestAutocompletePredictions(_ viewController: GMSAutocompleteViewController) {
-    UIApplication.shared.isNetworkActivityIndicatorVisible = true
-  }
-
-  func didUpdateAutocompletePredictions(_ viewController: GMSAutocompleteViewController) {
-    UIApplication.shared.isNetworkActivityIndicatorVisible = false
-  }
+//  func didRequestAutocompletePredictions(_ viewController: GMSAutocompleteViewController) {
+//    UIApplication.shared.isNetworkActivityIndicatorVisible = true
+//  }
+//
+//  func didUpdateAutocompletePredictions(_ viewController: GMSAutocompleteViewController) {
+//    UIApplication.shared.isNetworkActivityIndicatorVisible = false
+//  }
 
 }
