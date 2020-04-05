@@ -19,6 +19,7 @@
 		E42A4D8E243002FA003DA9A2 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A4D8D243002FA003DA9A2 /* LocationDetailViewController.swift */; };
 		E42A4D90243046DE003DA9A2 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A4D8F243046DE003DA9A2 /* PageViewController.swift */; };
 		E42A4D9224394E38003DA9A2 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A4D9124394E38003DA9A2 /* WeatherDetail.swift */; };
+		E42A4D9624398817003DA9A2 /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42A4D9524398817003DA9A2 /* DailyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E42A4D8D243002FA003DA9A2 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		E42A4D8F243046DE003DA9A2 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		E42A4D9124394E38003DA9A2 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
+		E42A4D9524398817003DA9A2 /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				E42A4D8F243046DE003DA9A2 /* PageViewController.swift */,
 				E42A4D8D243002FA003DA9A2 /* LocationDetailViewController.swift */,
 				E42A4D79242FC74B003DA9A2 /* LocationListViewController.swift */,
+				E42A4D9524398817003DA9A2 /* DailyTableViewCell.swift */,
 				E42A4D7B242FC74B003DA9A2 /* Main.storyboard */,
 				E42A4D7E242FC74F003DA9A2 /* Assets.xcassets */,
 				E42A4D80242FC74F003DA9A2 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E42A4D9624398817003DA9A2 /* DailyTableViewCell.swift in Sources */,
 				E42A4D7A242FC74B003DA9A2 /* LocationListViewController.swift in Sources */,
 				E42A4D9224394E38003DA9A2 /* WeatherDetail.swift in Sources */,
 				E42A4D90243046DE003DA9A2 /* PageViewController.swift in Sources */,
